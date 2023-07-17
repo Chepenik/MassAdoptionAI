@@ -24,3 +24,14 @@ Desktop.ini
 **/coverage
 
 .env
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore files with .pack extension
+*.pack
+
+# Ignore specific files
+file1.txt
+file2.png
+
