@@ -1,4 +1,4 @@
-export const data = [
+export const footer = [
     {
       title: 'Meet The Team',
       links: [
@@ -26,6 +26,9 @@ export const data = [
     },
   ];  
 
-
-
-
+  export const header = [
+    { label: 'Home', link: '/' },
+    { label: 'About', link: '/about' },
+    { label: 'Services', link: '/services' },
+    { label: 'Contact', link: '#GetInTouchSimple' },
+  ];  

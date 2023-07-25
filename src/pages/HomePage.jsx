@@ -1,5 +1,4 @@
 import { createStyles, Container, Title, Text, Button, rem } from '@mantine/core';
-import SwitchToggle from './SwitchToggle';
 
 const useStyles = createStyles((theme) => ({
   root: {
@@ -81,7 +80,6 @@ export function HeroImageRight() {
         <Container size="lg">
           <div className={classes.inner}>
             <div className={classes.content}>
-            <SwitchToggle />
               <Title className={classes.title}>
                 Welcome to{' '}
                 <Text

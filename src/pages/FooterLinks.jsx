@@ -98,10 +98,10 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-function FooterLinks({ data }) {
+function FooterLinks({ footer }) {
   const { classes } = useStyles();
 
-  const groups = data.map((group) => {
+  const groups = footer.map((group) => {
     const links = group.links.map((link, index) => (
       <Text
         key={index}
