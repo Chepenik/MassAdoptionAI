@@ -17,7 +17,8 @@ export function GetInTouchSimple() {
   });
 
   return (
-    <form onSubmit={form.onSubmit(() => {})}>
+    <div style={{ padding: 100 }}>
+        <form onSubmit={form.onSubmit(() => {})}>
       <Title
         order={2}
         size="h1"
@@ -71,6 +72,7 @@ export function GetInTouchSimple() {
         </Button>
       </Group>
     </form>
+    </div>
   );
 }
 

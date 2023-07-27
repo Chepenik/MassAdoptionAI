@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import '../styles/globals.css';
 import { MantineProvider, ColorSchemeProvider } from '@mantine/core';
 
 export default function App(props) {

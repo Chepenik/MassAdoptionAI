@@ -100,15 +100,17 @@ export function HeroImageRight() {
                 Scroll down to learn more about Mass Adoption.
               </Text>
   
-              <Button
-                variant="gradient"
-                gradient={{ from: 'pink', to: 'yellow' }}
-                size="xl"
-                className={classes.control}
-                mt={40}
-              >
-                Get started
-              </Button>
+              <a target="_blank" href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
+                <Button 
+                  variant="gradient" 
+                  gradient={{ from: 'pink', to: 'yellow' }} 
+                  size="xl" 
+                  className={classes.control} 
+                  mt={40}
+                >
+                  Come to a Meetup
+                </Button>
+              </a>
             </div>
           </div>
         </Container>

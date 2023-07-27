@@ -1,21 +1,23 @@
-import { Grid, Skeleton, Container } from '@mantine/core';
+import { Grid, Container, Image } from '@mantine/core';
 
-const child = <Skeleton height={140} radius="md" animate={false} />;
+const images = [
+  'https://cdn.nostr.build/p/nb3961.jpeg',
+  'https://cdn.nostr.build/p/nb3621.jpeg',
+  'https://cdn.nostr.build/p/nb2534.jpeg',
+];
 
-export function GridAsymmetrical() {
+export function GridOfImages() {
   return (
     <Container my="md">
       <Grid>
-        <Grid.Col xs={4}>{child}</Grid.Col>
-        <Grid.Col xs={8}>{child}</Grid.Col>
-        <Grid.Col xs={8}>{child}</Grid.Col>
-        <Grid.Col xs={4}>{child}</Grid.Col>
-        <Grid.Col xs={3}>{child}</Grid.Col>
-        <Grid.Col xs={3}>{child}</Grid.Col>
-        <Grid.Col xs={6}>{child}</Grid.Col>
+        {images.map(img => (
+          <Grid.Col key={img} xs={4}>
+            <Image src={img} alt="Image" />
+          </Grid.Col>
+        ))}
       </Grid>
     </Container>
   );
 }
 
-export default GridAsymmetrical;
+export default GridOfImages;
