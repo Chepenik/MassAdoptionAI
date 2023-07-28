@@ -102,5 +102,12 @@ a {
 
 .header {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.store {
+  padding-right: 10px;
 }

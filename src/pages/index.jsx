@@ -1,12 +1,11 @@
 import React from 'react';
 import HeroImageRight from './HomePage';
 import FooterLinks from './FooterLinks';
-import { header, footer } from './data';
+import { Header, footer } from './Data';
 import CardsCarousel from './CardsCarousel';
 import GetInTouchSimple from './GetInTouchSimple';
-import GridAsymmetrical from './GridAsymmetrical';
 import BtcMap from './btcmap';
-import Header from './header';
+import Header from './Header';
 
 const Index = () => {
   return (

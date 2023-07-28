@@ -4,7 +4,7 @@ export const footer = [
       links: [
         { label: 'Gallery', link: 'https://cdn.nostr.build/p/nb12317.png' },
         { label: 'Mission Statement', link: 'https://cdn.nostr.build/p/nb12317.png' },
-        { label: 'Team Bios', link: 'https://cdn.nostr.build/p/Qe7Y.jpg' },
+        { label: 'Team', link: 'https://cdn.nostr.build/p/Qe7Y.jpg' },
       ],
     },
     {
